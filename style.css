@@ -101,7 +101,7 @@ input{
 
 .App{
     background-color: #3d7ec476;
-    border-radius: 15px;
+    border-radius: 35px;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 10px;
@@ -214,33 +214,4 @@ input::placeholder{
 
 .tel{
     padding-top: 0.7rem;
-}
-
-.reenvio{
-    text-decoration: underline;
-}
-.hj{
-    border-radius: 50px;
-}
-
-.verificacao{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    outline: none;
-}
-
-.verificacao input{
-    text-align: center;
-    font-size: 1.125rem;
-}
-
-form input{
-    width: 45px;
-    height: 42px;
-}
-
-.verificacao input::-webkit-inner-spin-button,
-.verificacao input::-webkit-inner-outer-button{
-    display: none;
 }
