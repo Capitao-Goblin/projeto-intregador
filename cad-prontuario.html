@@ -10,10 +10,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,300&display=swap" rel="stylesheet">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"><!-- boxicon -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/verificacao.css">
+  <link rel="stylesheet" href="cad.prontuario.css">
   <title>Document</title>
 </head>
 
@@ -47,46 +50,18 @@
 
 
   <hr>
-  <p class="sla"><b>Confirmação por SMS</b></p>
-  <hr>
-  <div class="App">
-    <form class="input">
-      <fieldset>
-        <div class="espacamento">
-        <div class="text-sms">
-          <h3>Enviaremos um codigo de comfirmção via SMS</h3>
-        </div><!-- text-sms -->
+  <p class="sla"><b>Identificação</b></p>
 
-        <div class="verificacao">
-          <div class="text-sms">
-            <form action="#" id="fomr2">
-          <input type="number" >
-          <input type="number" disabled>
-          <input type="number" disabled>
-          <input type="number" disabled>
-        </div><!-- text-sms -->
-        </div><!-- verificacao -->
-    </form>
-        <div class="password">
-          <div class="text-sms">
-            <h3>Não recebeu o código de confirmação? <a href="#" class="reenvio">Reenviar</a></h3>
-          </div><!-- text-sms -->
-        </div>
-        <div class="esticar40">
-          <div class="text-sms">
-          <input style="background-color: (#fffce3); font-size: 15px;" type="submit" class="esticar90"
-            onclick="enviar();" value="AVANÇAR" />
-          </div><!-- text-sms -->
-        </div><!-- esticar40 -->
-        </div><!-- espacamento -->
-      </fieldset>
-    </form>
-  </div>
+  <div class="cad">
+    <i class='bx bxs-user'></i>
+</div>
 
+<form action="#" class="cad-idd">
+    <input type="number" name="idade" required="required" placeholder="Idade">
 
+    <input type="text" name="genero" required="required" placeholder="Gênero">
+</form>
 
-
-  <script src="script.js" defer></script>
-</body>
-
-</html>
+<form action="#" class="form-cad">
+    <input type="number">
+</form>
